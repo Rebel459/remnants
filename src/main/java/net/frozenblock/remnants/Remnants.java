@@ -6,7 +6,8 @@ import net.minecraft.resources.ResourceLocation;
 public class Remnants implements ModInitializer {
 	@Override
 	public void onInitialize() {
-		RemnantsItems.register();
+		RemnantsItems.init();
+		RemnantsCreativeInventorySorting.init();
 	}
 
 	public static ResourceLocation id(String path) {
