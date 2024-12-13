@@ -1,0 +1,8 @@
+{
+  "asset_id": "remnants:desolation",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.remnants.desolation"
+  },
+  "template_item": "remnants:desolation_armor_trim_smithing_template"
+}

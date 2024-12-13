@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_dye"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 2.0
+      }
+    }
+  ],
+  "random_sequence": "remnants:chests/remnants/tannery_chest"
+}

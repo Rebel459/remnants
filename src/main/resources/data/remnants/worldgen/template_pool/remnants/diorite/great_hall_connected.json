@@ -1,0 +1,41 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/great_hall_rooms/recovery",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/great_hall_rooms/switch",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/great_hall_rooms/preparations",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/halls/hall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "remnants:remnants/diorite/hall_end"
+}

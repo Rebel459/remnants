@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/andesite/great_hall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/andesite/great_library/great_library_q1",
+        "processors": "remnants:remnants_library",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/great_hall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/great_library/great_library_q1",
+        "processors": "remnants:remnants_library",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/great_hall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/great_library/great_library_q1",
+        "processors": "remnants:remnants_library",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

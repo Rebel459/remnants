@@ -1,0 +1,203 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_candles",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_candles_disconnected",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_circuit",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_corner",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_disconnected",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_double_intersection",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_intersection",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_jail",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_spider",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_staircase_sloped",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_staircase_upwards",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/halls/hall_surveyor_intersection",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/main_halls/fountain",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/main_halls/main_hall_connector",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/barrels",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/display",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/melee",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/ranged",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/surveyor",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/rooms/vault",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/combat_rooms/pitfall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "remnants:remnants/granite/halls"
+}

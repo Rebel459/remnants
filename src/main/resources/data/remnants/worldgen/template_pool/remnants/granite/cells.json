@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/jail_cells/cell",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/jail_cells/storage",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/granite/jail_cells/tannery",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "remnants:remnants/granite/hall_end"
+}

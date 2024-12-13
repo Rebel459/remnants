@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/main_halls/main_hall_double_side",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/main_halls/main_hall_side",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/main_halls/waterfall",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/secret_crossovers/foundation",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/secret_crossovers/jukebox",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/secret_crossovers/portal",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/hallway_intersections/hallway_crossing",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "remnants:remnants/diorite/main_hall_end"
+}

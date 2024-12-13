@@ -1,0 +1,18 @@
+{
+  "music_disc.refer": {
+    "sounds": [
+      {
+        "name": "remnants:records/refer",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.retold": {
+    "sounds": [
+      {
+        "name": "remnants:records/retold",
+        "stream": true
+      }
+    ]
+  }
+}

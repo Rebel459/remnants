@@ -1,0 +1,10 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.remnants.music_disc_refer"
+  },
+  "length_in_seconds": 187.0,
+  "sound_event": {
+    "sound_id": "remnants:music_disc.refer"
+  }
+}

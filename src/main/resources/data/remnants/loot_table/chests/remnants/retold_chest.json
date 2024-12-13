@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "remnants:music_disc_retold"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "remnants:chests/remnants/retold_chest"
+}

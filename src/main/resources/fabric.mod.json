@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "remnants",
+	"version": "${version}",
+	"name": "Remnants",
+	"description": "Adds a major new structure: the Remnants. Addon mod for Trailier Tales.",
+	"authors": [
+		"Rebel459"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "Legacy License",
+	"icon": "assets/remnants/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.frozenblock.remnants.Remnants"
+		]
+	},
+	"mixins": [
+		"remnants.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.21",
+		"fabric-api": "*",
+		"trailiertales": "*",
+		"frozenlib": "*"
+	}
+}

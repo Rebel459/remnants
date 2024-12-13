@@ -1,0 +1,41 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/combat_rooms/ascent",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/combat_rooms/labyrinth",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/combat_rooms/pillars",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "remnants:remnants/diorite/combat_rooms/training",
+        "processors": "remnants:remnants",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "remnants:remnants/diorite/combat_connector_end"
+}
