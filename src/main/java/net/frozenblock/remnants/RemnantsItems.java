@@ -1,7 +1,6 @@
 package net.frozenblock.remnants;
 
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
-import net.frozenblock.trailiertales.TTConstants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
@@ -11,7 +10,6 @@ import net.minecraft.world.level.block.Block;
 import java.util.function.Function;
 
 public final class RemnantsItems {
-    private RemnantsItems() {}
 
     // Items
     public static final Item REMNANTS_KEY = register("remnants_key",
@@ -50,7 +48,7 @@ public final class RemnantsItems {
     }
 
     private static @NotNull <T extends Item> T register(String name, @NotNull Function<Properties, Item> function, Item.@NotNull Properties properties) {
-        return (T) Items.registerItem(ResourceKey.create(Registries.ITEM, TTConstants.id(name)), function, properties);
+        return (T) Items.registerItem(ResourceKey.create(Registries.ITEM, RemnantsConstants.id(name)), function, properties);
     }
 
     public static Function<Properties, Item> createBlockItemWithCustomItemName(Block block) {

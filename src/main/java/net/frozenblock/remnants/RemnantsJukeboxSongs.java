@@ -1,6 +1,5 @@
 package net.frozenblock.remnants;
 
-import net.frozenblock.trailiertales.TTConstants;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
@@ -19,7 +18,7 @@ public class RemnantsJukeboxSongs {
 	}
 
 	private static @NotNull ResourceKey<JukeboxSong> create(String path) {
-		return ResourceKey.create(Registries.JUKEBOX_SONG, TTConstants.id(path));
+		return ResourceKey.create(Registries.JUKEBOX_SONG, RemnantsConstants.id(path));
 	}
 
 	private static void register(
