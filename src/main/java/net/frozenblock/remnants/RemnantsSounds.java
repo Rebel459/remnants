@@ -1,6 +1,6 @@
 package net.frozenblock.remnants;
 
-import net.frozenblock.trailiertales.TTConstants;
+import net.frozenblock.remnants.RemnantsConstants;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -14,12 +14,12 @@ public class RemnantsSounds {
 
 	@NotNull
 	private static SoundEvent register(@NotNull String string) {
-		ResourceLocation resourceLocation = TTConstants.id(string);
+		ResourceLocation resourceLocation = RemnantsConstants.id(string);
 		return Registry.register(BuiltInRegistries.SOUND_EVENT, resourceLocation, SoundEvent.createVariableRangeEvent(resourceLocation));
 	}
 
 	private static Holder.@NotNull Reference<SoundEvent> registerForHolder(String id) {
-		return registerForHolder(TTConstants.id(id));
+		return registerForHolder(RemnantsConstants.id(id));
 	}
 
 	private static Holder.@NotNull Reference<SoundEvent> registerForHolder(ResourceLocation id) {

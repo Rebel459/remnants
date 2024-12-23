@@ -2,7 +2,7 @@ package net.frozenblock.remnants;
 
 import net.frozenblock.lib.item.api.FrozenCreativeTabs;
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
-import net.frozenblock.trailiertales.TTConstants;
+import net.frozenblock.remnants.RemnantsConstants;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -20,7 +20,7 @@ public final class RemnantsItems {
     public static final Item MUSIC_DISC_RETOLD = new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(RemnantsJukeboxSongs.RETOLD));
 
     public static final Item DESOLATION_ARMOR_TRIM_SMITHING_TEMPLATE = SmithingTemplateItem.createArmorTrimTemplate(
-            ResourceKey.create(Registries.TRIM_PATTERN, TTConstants.id("desolation"))
+            ResourceKey.create(Registries.TRIM_PATTERN, RemnantsConstants.id("desolation"))
     );
 
     public static void register() {
@@ -46,8 +46,8 @@ public final class RemnantsItems {
     }
 
     private static void actualRegister(@NotNull Item item, @NotNull String path) {
-        if (BuiltInRegistries.ITEM.getOptional(TTConstants.id(path)).isEmpty()) {
-            Registry.register(BuiltInRegistries.ITEM, TTConstants.id(path), item);
+        if (BuiltInRegistries.ITEM.getOptional(RemnantsConstants.id(path)).isEmpty()) {
+            Registry.register(BuiltInRegistries.ITEM, RemnantsConstants.id(path), item);
         }
     }
 }
