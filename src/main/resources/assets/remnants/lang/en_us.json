@@ -5,12 +5,10 @@
   "item.remnants.remnants_key": "Remnants Key",
   "item.remnants.ominous_remnants_key": "Ominous Remnants Key",
 
-  "enchantment.remnants.freeze": "Freeze",
-
   "item.remnants.music_disc_refer.desc": "LudoCrypt - Refer",
   "jukebox_song.remnants.music_disc_refer": "LudoCrypt - Refer",
-  "item.remnants.music_disc_retold.desc": "Sigma_ - Retold",
-  "jukebox_song.remnants.music_disc_retold": "Sigma_ - Retold",
+  "item.remnants.music_disc_retold.desc": "Soul_ - Retold",
+  "jukebox_song.remnants.music_disc_retold": "Soul_ - Retold",
 
   "trim_pattern.remnants.desolation": "Desolation Armor Trim"
 }
