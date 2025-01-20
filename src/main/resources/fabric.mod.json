@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.frozenblock.remnants.Remnants"
+		],
+		"frozenlib:decorated_pot_patterns": [
+			"net.frozenblock.remnants.RemnantsDecoratedPotPatterns"
 		]
 	},
 	"mixins": [

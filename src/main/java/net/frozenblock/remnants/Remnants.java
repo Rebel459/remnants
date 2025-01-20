@@ -7,6 +7,7 @@ public class Remnants implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		RemnantsItems.init();
+		RemnantsTrimPatterns.init();
 		RemnantsCreativeInventorySorting.init();
 	}
 

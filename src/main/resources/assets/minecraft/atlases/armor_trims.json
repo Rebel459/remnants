@@ -1,10 +1,10 @@
 {
   "sources": [
     {
-      "type": "minecraft:paletted_permutations",
+      "type": "paletted_permutations",
       "textures": [
-        "remnants:trims/models/armor/desolation",
-        "remnants:trims/models/armor/desolation_leggings"
+        "remnants:trims/entity/humanoid/desolation",
+        "remnants:trims/entity/humanoid_leggings/desolation"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
@@ -21,7 +21,8 @@
         "iron_darker": "trims/color_palettes/iron_darker",
         "gold_darker": "trims/color_palettes/gold_darker",
         "diamond_darker": "trims/color_palettes/diamond_darker",
-        "netherite_darker": "trims/color_palettes/netherite_darker"
+        "netherite_darker": "trims/color_palettes/netherite_darker",
+        "resin": "trims/color_palettes/resin"
       }
     }
   ]

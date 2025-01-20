@@ -8,11 +8,13 @@ import net.minecraft.world.level.ItemLike;
 public class RemnantsCreativeInventorySorting {
 
 	public static void init() {
-		addAfterInToolsAndUtilities(Items.MUSIC_DISC_PRECIPICE, RemnantsItems.MUSIC_DISC_RETOLD);
-		addAfterInToolsAndUtilities(RemnantsItems.MUSIC_DISC_RETOLD, RemnantsItems.MUSIC_DISC_REFER);
+		addAfterInToolsAndUtilities(Items.MUSIC_DISC_STRAD, RemnantsItems.MUSIC_DISC_RETOLD);
+		addAfterInToolsAndUtilities(Items.MUSIC_DISC_RELIC, RemnantsItems.MUSIC_DISC_REFER);
 		addAfterInIngredients(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE, RemnantsItems.DESOLATION_ARMOR_TRIM_SMITHING_TEMPLATE);
 		addAfterInIngredients(Items.OMINOUS_TRIAL_KEY, RemnantsItems.REMNANTS_KEY);
 		addAfterInIngredients(RemnantsItems.REMNANTS_KEY, RemnantsItems.OMINOUS_REMNANTS_KEY);
+		addBeforeInIngredients(Items.ANGLER_POTTERY_SHERD, RemnantsItems.AMBUSH_POTTERY_SHERD);
+		addBeforeInIngredients(Items.BURN_POTTERY_SHERD, RemnantsItems.CIRCUIT_POTTERY_SHERD);
 	}
 
 	private static void addAfterInNaturalBlocks(ItemLike comparedItem, ItemLike item) {

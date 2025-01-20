@@ -1,5 +1,6 @@
 package net.frozenblock.remnants;
 
+import net.frozenblock.lib.item.api.sherd.SherdRegistry;
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -44,6 +45,19 @@ public final class RemnantsItems {
                     .rarity(Rarity.UNCOMMON)
     );
 
+    // Sherds
+    public static final Item AMBUSH_POTTERY_SHERD = registerSherd("ambush_pottery_sherd",
+            Item::new,
+            new Properties()
+                    .rarity(Rarity.UNCOMMON)
+    );
+
+    public static final Item CIRCUIT_POTTERY_SHERD = registerSherd("circuit_pottery_sherd",
+            Item::new,
+            new Properties()
+                    .rarity(Rarity.UNCOMMON)
+    );
+
     public static void init() {
     }
 
@@ -53,6 +67,12 @@ public final class RemnantsItems {
 
     public static Function<Properties, Item> createBlockItemWithCustomItemName(Block block) {
         return properties -> new BlockItem(block, properties.useItemDescriptionPrefix());
+    }
+
+    private static @org.jetbrains.annotations.NotNull <T extends Item> T registerSherd(String name, @org.jetbrains.annotations.NotNull Function<Properties, Item> function, Item.@org.jetbrains.annotations.NotNull Properties properties) {
+        T item = (T) Items.registerItem(ResourceKey.create(Registries.ITEM, RemnantsConstants.id(name)), function, properties);
+        SherdRegistry.register(item, RemnantsConstants.id(name.replace("sherd", "pattern")));
+        return item;
     }
 
 }

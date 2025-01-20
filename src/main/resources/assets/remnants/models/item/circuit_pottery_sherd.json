@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "remnants:item/remnants_key"
+    "layer0": "remnants:item/circuit_pottery_sherd"
   }
 }
