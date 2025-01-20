@@ -11,26 +11,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "remnants:desolation_armor_trim_smithing_template",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
           "name": "remnants:music_disc_refer",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "remnants:freeze"
-              ]
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1
+          "name": "remnants:circuit_pottery_sherd",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

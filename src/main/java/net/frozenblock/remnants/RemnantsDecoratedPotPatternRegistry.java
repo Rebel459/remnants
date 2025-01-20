@@ -18,7 +18,7 @@ public class RemnantsDecoratedPotPatternRegistry implements DecoratedPotPatternR
 	}
 
 	public static void register(@NotNull Registry<DecoratedPotPattern> registry, String sherdName) {
-		ResourceLocation location = TTConstants.id(sherdName + "_pottery_pattern");
+		ResourceLocation location = RemnantsConstants.id(sherdName + "_pottery_pattern");
 		DecoratedPotPatternRegistryEntrypoint.register(
 			registry,
 			ResourceKey.create(Registries.DECORATED_POT_PATTERN, location),

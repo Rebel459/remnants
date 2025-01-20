@@ -16,7 +16,7 @@
         "processors": "remnants:remnants",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 3
     },
     {
       "element": {
@@ -25,7 +25,7 @@
         "processors": "remnants:remnants",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 3
     },
     {
       "element": {
@@ -34,7 +34,7 @@
         "processors": "remnants:remnants",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 3
     }
   ],
   "fallback": "remnants:remnants/granite/combat_connector_end"
