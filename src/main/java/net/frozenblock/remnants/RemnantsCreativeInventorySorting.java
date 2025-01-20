@@ -14,7 +14,7 @@ public class RemnantsCreativeInventorySorting {
 		addAfterInIngredients(Items.OMINOUS_TRIAL_KEY, RemnantsItems.REMNANTS_KEY);
 		addAfterInIngredients(RemnantsItems.REMNANTS_KEY, RemnantsItems.OMINOUS_REMNANTS_KEY);
 		addBeforeInIngredients(Items.ANGLER_POTTERY_SHERD, RemnantsItems.AMBUSH_POTTERY_SHERD);
-		addBeforeInIngredients(Items.BURN_POTTERY_SHERD, RemnantsItems.CIRCUIT_POTTERY_SHERD);
+		addAfterInIngredients(Items.BURN_POTTERY_SHERD, RemnantsItems.CIRCUIT_POTTERY_SHERD);
 	}
 
 	private static void addAfterInNaturalBlocks(ItemLike comparedItem, ItemLike item) {
