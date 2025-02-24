@@ -1,4 +1,4 @@
-package net.frozenblock.remnants;
+package net.legacy.remnants;
 
 import net.minecraft.Util;
 import net.minecraft.core.Holder;

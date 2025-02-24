@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.frozenblock.remnants.mixin",
+	"package": "net.legacy.remnants.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
 	"injectors": {

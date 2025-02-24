@@ -1,4 +1,4 @@
-package net.frozenblock.remnants;
+package net.legacy.remnants;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;

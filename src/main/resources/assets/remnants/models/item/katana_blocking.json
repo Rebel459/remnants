@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "remnants:item/katana"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 45, 155, 0 ],
+            "translation": [ -5, 4, 3 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 45, -25, 0 ],
+            "translation": [ -5, 4, 3 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, -5 ],
+            "translation": [ -10, 5, 0 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 5 ],
+            "translation": [ -10, 5, 0 ]
+        }
+    }
+}

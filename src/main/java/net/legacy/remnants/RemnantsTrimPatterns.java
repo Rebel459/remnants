@@ -1,4 +1,4 @@
-package net.frozenblock.remnants;
+package net.legacy.remnants;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;

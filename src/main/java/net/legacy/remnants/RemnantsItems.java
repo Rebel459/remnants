@@ -1,16 +1,33 @@
-package net.frozenblock.remnants;
+package net.legacy.remnants;
 
 import net.frozenblock.lib.item.api.sherd.SherdRegistry;
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
+import net.minecraft.core.HolderGetter;
+import net.minecraft.core.HolderSet;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.Item.Properties;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.component.Tool;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
+import java.util.List;
 import java.util.function.Function;
 
+import static net.minecraft.world.item.Item.BASE_ATTACK_DAMAGE_ID;
+import static net.minecraft.world.item.Item.BASE_ATTACK_SPEED_ID;
+
 public final class RemnantsItems {
+
+    static HolderGetter<Block> holderGetter = BuiltInRegistries.acquireBootstrapRegistrationLookup(BuiltInRegistries.BLOCK);
 
     // Items
     public static final Item REMNANTS_KEY = register("remnants_key",
@@ -27,7 +44,7 @@ public final class RemnantsItems {
             Item::new,
             new Properties()
                     .stacksTo(1)
-                    .rarity(Rarity.RARE)
+                    .rarity(Rarity.UNCOMMON)
                     .jukeboxPlayable(RemnantsJukeboxSongs.RETOLD)
     );
     public static final Item MUSIC_DISC_REFER = register("music_disc_refer",
@@ -56,6 +73,27 @@ public final class RemnantsItems {
             Item::new,
             new Properties()
                     .rarity(Rarity.UNCOMMON)
+    );
+
+    // Katana
+    public static final KatanaItem KATANA = register("katana",
+            KatanaItem::new,
+            new Properties()
+                    .stacksTo(1)
+                    .component(DataComponents.ATTRIBUTE_MODIFIERS, KatanaItem.createAttributes())
+                    .component(
+                            DataComponents.TOOL,
+                            new Tool(
+                                    List.of(
+                                            Tool.Rule.minesAndDrops(HolderSet.direct(Blocks.COBWEB.builtInRegistryHolder()), 15.0F),
+                                            Tool.Rule.overrideSpeed(holderGetter.getOrThrow(BlockTags.SWORD_EFFICIENT), 1.5F)
+                                    ),
+                                    1.0F,
+                                    2
+                            )
+                    )
+                    .repairable(RemnantsItemTags.KATANA_REPAIR_MATERIALS)
+                    .rarity(Rarity.EPIC)
     );
 
     public static void init() {

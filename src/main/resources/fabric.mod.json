@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.frozenblock.remnants.Remnants"
+          "net.legacy.remnants.Remnants"
 		],
 		"frozenlib:decorated_pot_patterns": [
-			"net.frozenblock.remnants.RemnantsDecoratedPotPatterns"
+          "net.legacy.remnants.RemnantsDecoratedPotPatterns"
 		]
 	},
 	"mixins": [
