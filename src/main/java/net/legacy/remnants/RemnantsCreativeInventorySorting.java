@@ -15,6 +15,7 @@ public class RemnantsCreativeInventorySorting {
 		addAfterInIngredients(RemnantsItems.REMNANTS_KEY, RemnantsItems.OMINOUS_REMNANTS_KEY);
 		addBeforeInIngredients(Items.ANGLER_POTTERY_SHERD, RemnantsItems.AMBUSH_POTTERY_SHERD);
 		addAfterInIngredients(Items.BURN_POTTERY_SHERD, RemnantsItems.CIRCUIT_POTTERY_SHERD);
+		addBeforeInCombat(Items.MACE, RemnantsItems.KATANA);
 	}
 
 	private static void addAfterInNaturalBlocks(ItemLike comparedItem, ItemLike item) {
@@ -67,6 +68,10 @@ public class RemnantsCreativeInventorySorting {
 
 	private static void addAfterInCombat(ItemLike comparedItem, ItemLike item) {
 		FrozenCreativeTabs.addAfter(comparedItem, item, CreativeModeTabs.COMBAT);
+	}
+
+	private static void addBeforeInCombat(ItemLike comparedItem, ItemLike item) {
+		FrozenCreativeTabs.addBefore(comparedItem, item, CreativeModeTabs.COMBAT);
 	}
 
 	private static void addBeforeInSpawnEggs(ItemLike comparedItem, ItemLike item) {

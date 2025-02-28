@@ -4,14 +4,18 @@
   "item.remnants.music_disc_retold": "Music Disc",
   "item.remnants.remnants_key": "Remnants Key",
   "item.remnants.ominous_remnants_key": "Ominous Remnants Key",
+  "item.remnants.katana": "Katana",
 
   "item.remnants.ambush_pottery_sherd": "Ambush Pottery Sherd",
   "item.remnants.circuit_pottery_sherd": "Circuit Pottery Sherd",
 
-  "item.remnants.music_disc_refer.desc": "LudoCrypt - Refer",
   "jukebox_song.remnants.music_disc_refer": "LudoCrypt - Refer",
-  "item.remnants.music_disc_retold.desc": "Soul_ - Retold",
   "jukebox_song.remnants.music_disc_retold": "Soul_ - Retold",
+
+  "enchantment.remnants.dueling": "Dueling",
+  "enchantment.remnants.relentless": "Relentless",
+
+  "effect.remnants.overcharge": "Overcharge",
 
   "trim_pattern.remnants.desolation": "Desolation Armor Trim"
 }

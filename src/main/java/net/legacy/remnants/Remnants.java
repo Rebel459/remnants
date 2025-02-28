@@ -9,6 +9,8 @@ public class Remnants implements ModInitializer {
 		RemnantsItems.init();
 		RemnantsTrimPatterns.init();
 		RemnantsCreativeInventorySorting.init();
+		RemnantsMobEffects.init();
+		RemnantsSounds.init();
 	}
 
 	public static ResourceLocation id(String path) {

@@ -93,6 +93,7 @@ public final class RemnantsItems {
                             )
                     )
                     .repairable(RemnantsItemTags.KATANA_REPAIR_MATERIALS)
+                    .durability(738)
                     .rarity(Rarity.EPIC)
     );
 

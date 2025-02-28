@@ -1,0 +1,257 @@
+{
+  "description": {
+    "translate": "enchantment.remnants.relentless"
+  },
+  "exclusive_set": "#remnants:exclusive_set/katana",
+  "supported_items": "#remnants:enchantable/katana",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 16
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "effects": {
+                "remnants:overcharge": {
+                  "amplifier": 3
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "remnants:overcharge",
+              "min_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "max_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "min_amplifier": 3,
+              "max_amplifier": 3
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "effects": {
+                "remnants:overcharge": {
+                  "amplifier": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "remnants:overcharge",
+              "min_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "max_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "min_amplifier": 2,
+              "max_amplifier": 2
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "effects": {
+                "remnants:overcharge": {
+                  "amplifier": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "remnants:overcharge",
+              "min_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "max_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "min_amplifier": 1,
+              "max_amplifier": 1
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "effects": {
+                "remnants:overcharge": {
+                  "amplifier": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "remnants:overcharge",
+              "min_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "max_duration": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "min_amplifier": 0,
+              "max_amplifier": 0
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        ]
+      },
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "remnants:relentless",
+              "enchanted": "attacker",
+              "affected": "attacker"
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "effects": {
+                "remnants:overcharge": {
+                  "amplifier": 3
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

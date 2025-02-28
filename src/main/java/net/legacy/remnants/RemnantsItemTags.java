@@ -7,6 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class RemnantsItemTags {
     public static final TagKey<Item> KATANA_REPAIR_MATERIALS = bind("katana_repair_materials");
+    public static final TagKey<Item> KATANA = bind("katana");
 
     @NotNull
     private static TagKey<Item> bind(@NotNull String path) {

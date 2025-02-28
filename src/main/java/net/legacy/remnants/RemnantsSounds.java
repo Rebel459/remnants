@@ -11,6 +11,9 @@ public class RemnantsSounds {
 	public static final Holder.Reference<SoundEvent> MUSIC_DISC_REFER = registerForHolder("music_disc.refer");
 	public static final Holder.Reference<SoundEvent> MUSIC_DISC_RETOLD = registerForHolder("music_disc.retold");
 
+	public static final SoundEvent KATANA_SWING = register("katana.swing");
+	public static final SoundEvent KATANA_HEAVY_SWING = register("katana.heavy_swing");
+
 	@NotNull
 	private static SoundEvent register(@NotNull String string) {
 		ResourceLocation resourceLocation = RemnantsConstants.id(string);

@@ -138,12 +138,7 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "minecraft:sharpness",
-                "minecraft:smite",
-                "minecraft:efficiency",
-                "minecraft:fortune",
-                "minecraft:silk_touch",
-                "minecraft:feather_falling"
+                "#minecraft:on_random_loot"
               ]
             }
           ],
@@ -156,11 +151,9 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "minecraft:quick_charge",
-                "minecraft:piercing",
-                "minecraft:unbreaking",
-                "minecraft:multishot",
-                "minecraft:mending"
+                "remnants:dueling",
+                "minecraft:sharpness",
+                "minecraft:unbreaking"
               ]
             }
           ],

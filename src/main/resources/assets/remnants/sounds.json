@@ -1,4 +1,38 @@
 {
+  "katana.swing": {
+    "sounds": [
+      {
+        "name": "remnants:item/katana/swing1",
+        "volume": 1.0
+      },
+      {
+        "name": "remnants:item/katana/swing2",
+        "volume": 1.0
+      },
+      {
+        "name": "remnants:item/katana/swing3",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.item.katana.swing"
+  },
+  "katana.heavy_swing": {
+    "sounds": [
+      {
+        "name": "remnants:item/katana/heavy_swing1",
+        "volume": 1.0
+      },
+      {
+        "name": "remnants:item/katana/heavy_swing2",
+        "volume": 1.0
+      },
+      {
+        "name": "remnants:item/katana/heavy_swing3",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.item.katana.heavy_swing"
+  },
   "music_disc.refer": {
     "sounds": [
       {
