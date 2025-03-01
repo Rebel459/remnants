@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#remnants:has_remnants",
+    "biomes": "#remnants:has_structure/remnants",
     "dimension_padding": 6,
     "liquid_settings": "ignore_waterlogging",
     "max_distance_from_center": 116,

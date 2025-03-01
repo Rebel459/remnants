@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 459459459,
+    "separation": 27,
+    "spacing": 54
+  },
+  "structures": [
+    {
+      "structure": "remnants:well",
+      "weight": 1
+    }
+  ]
+}
