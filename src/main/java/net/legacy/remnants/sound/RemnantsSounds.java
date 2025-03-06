@@ -1,5 +1,6 @@
-package net.legacy.remnants;
+package net.legacy.remnants.sound;
 
+import net.legacy.remnants.RemnantsConstants;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

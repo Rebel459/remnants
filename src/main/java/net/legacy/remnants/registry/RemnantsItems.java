@@ -1,7 +1,11 @@
-package net.legacy.remnants;
+package net.legacy.remnants.registry;
 
 import net.frozenblock.lib.item.api.sherd.SherdRegistry;
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
+import net.legacy.remnants.RemnantsConstants;
+import net.legacy.remnants.equipment.KatanaItem;
+import net.legacy.remnants.sound.RemnantsJukeboxSongs;
+import net.legacy.remnants.tag.RemnantsItemTags;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.component.DataComponents;
@@ -9,12 +13,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.entity.EquipmentSlotGroup;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.Item.Properties;
-import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.component.Tool;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;

@@ -1,7 +1,7 @@
 package net.legacy.remnants.mixin;
 
-import net.legacy.remnants.RemnantsItemTags;
-import net.legacy.remnants.RemnantsSounds;
+import net.legacy.remnants.tag.RemnantsItemTags;
+import net.legacy.remnants.sound.RemnantsSounds;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;

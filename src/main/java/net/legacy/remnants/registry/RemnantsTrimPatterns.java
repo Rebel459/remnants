@@ -1,5 +1,6 @@
-package net.legacy.remnants;
+package net.legacy.remnants.registry;
 
+import net.legacy.remnants.RemnantsConstants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;

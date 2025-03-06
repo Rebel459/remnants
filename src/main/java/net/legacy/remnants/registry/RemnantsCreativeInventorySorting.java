@@ -1,4 +1,4 @@
-package net.legacy.remnants;
+package net.legacy.remnants.registry;
 
 import net.frozenblock.lib.item.api.FrozenCreativeTabs;
 import net.minecraft.world.item.CreativeModeTabs;

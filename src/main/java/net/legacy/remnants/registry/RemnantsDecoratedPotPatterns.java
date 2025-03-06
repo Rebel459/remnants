@@ -1,6 +1,7 @@
-package net.legacy.remnants;
+package net.legacy.remnants.registry;
 
 import net.frozenblock.lib.item.impl.sherd.DecoratedPotPatternRegistryEntrypoint;
+import net.legacy.remnants.RemnantsConstants;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;

@@ -1,6 +1,7 @@
-package net.legacy.remnants;
+package net.legacy.remnants.tag;
 
 import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
+import net.legacy.remnants.RemnantsConstants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;

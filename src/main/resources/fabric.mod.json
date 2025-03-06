@@ -19,7 +19,7 @@
           "net.legacy.remnants.Remnants"
 		],
 		"frozenlib:decorated_pot_patterns": [
-          "net.legacy.remnants.RemnantsDecoratedPotPatterns"
+          "net.legacy.remnants.registry.RemnantsDecoratedPotPatterns"
 		]
 	},
 	"mixins": [

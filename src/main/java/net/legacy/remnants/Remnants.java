@@ -1,6 +1,11 @@
 package net.legacy.remnants;
 
 import net.fabricmc.api.ModInitializer;
+import net.legacy.remnants.registry.RemnantsCreativeInventorySorting;
+import net.legacy.remnants.registry.RemnantsItems;
+import net.legacy.remnants.registry.RemnantsMobEffects;
+import net.legacy.remnants.registry.RemnantsTrimPatterns;
+import net.legacy.remnants.sound.RemnantsSounds;
 import net.minecraft.resources.ResourceLocation;
 
 public class Remnants implements ModInitializer {
