@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Rebel459/remnants"
 	},
 	"license": "Legacy License",
-	"icon": "assets/remnants/icon.png",
+	"icon": "assets/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
