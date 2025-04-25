@@ -94,10 +94,6 @@
       "required": false
     },
     {
-      "id": "#c:is_aquatic",
-      "required": false
-    },
-    {
       "id": "wilderwild:arid_savanna",
       "required": false
     },
