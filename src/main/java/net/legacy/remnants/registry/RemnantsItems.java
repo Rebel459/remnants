@@ -81,6 +81,7 @@ public final class RemnantsItems {
             new Properties()
                     .stacksTo(1)
                     .component(DataComponents.ATTRIBUTE_MODIFIERS, KatanaItem.createAttributes())
+                    .enchantable(14)
                     .component(
                             DataComponents.TOOL,
                             new Tool(
