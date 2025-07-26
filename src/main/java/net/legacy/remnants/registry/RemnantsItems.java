@@ -1,9 +1,8 @@
 package net.legacy.remnants.registry;
 
 import net.frozenblock.lib.item.api.sherd.SherdRegistry;
-import net.frozenblock.lib.shadow.org.jetbrains.annotations.NotNull;
 import net.legacy.remnants.RemnantsConstants;
-import net.legacy.remnants.equipment.KatanaItem;
+import net.legacy.remnants.item.KatanaItem;
 import net.legacy.remnants.sound.RemnantsJukeboxSongs;
 import net.legacy.remnants.tag.RemnantsItemTags;
 import net.minecraft.core.HolderGetter;
@@ -12,14 +11,19 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.Item.Properties;
+import net.minecraft.world.item.component.BlocksAttacks;
 import net.minecraft.world.item.component.Tool;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Function;
 
 import static net.minecraft.world.item.Item.BASE_ATTACK_DAMAGE_ID;
@@ -82,6 +86,7 @@ public final class RemnantsItems {
                     .stacksTo(1)
                     .component(DataComponents.ATTRIBUTE_MODIFIERS, KatanaItem.createAttributes())
                     .enchantable(14)
+                    .component(DataComponents.BLOCKS_ATTACKS, new BlocksAttacks(0, 0, List.of(new BlocksAttacks.DamageReduction(135, Optional.empty(), 0F, 0.5F)), BlocksAttacks.ItemDamageFunction.DEFAULT, Optional.empty(), Optional.of(SoundEvents.SHIELD_BLOCK), Optional.empty()))
                     .component(
                             DataComponents.TOOL,
                             new Tool(
@@ -90,7 +95,8 @@ public final class RemnantsItems {
                                             Tool.Rule.overrideSpeed(holderGetter.getOrThrow(BlockTags.SWORD_EFFICIENT), 1.5F)
                                     ),
                                     1.0F,
-                                    2
+                                    2,
+                                    false
                             )
                     )
                     .repairable(RemnantsItemTags.KATANA_REPAIR_MATERIALS)

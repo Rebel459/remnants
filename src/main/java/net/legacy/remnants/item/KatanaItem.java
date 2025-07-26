@@ -1,4 +1,4 @@
-package net.legacy.remnants.equipment;
+package net.legacy.remnants.item;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EquipmentSlotGroup;
@@ -9,9 +9,9 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import org.jetbrains.annotations.NotNull;
 
-public class KatanaItem extends ShieldItem {
+public class KatanaItem extends Item {
 
-    public KatanaItem(Item.Properties properties) {
+    public KatanaItem(Properties properties) {
         super(properties);
     }
 
@@ -20,11 +20,6 @@ public class KatanaItem extends ShieldItem {
                 .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 4F, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
                 .add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -1.8F, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
                 .build();
-    }
-
-    @Override
-    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        return true;
     }
 
     @Override
