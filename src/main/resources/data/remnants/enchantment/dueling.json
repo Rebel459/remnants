@@ -2,7 +2,6 @@
   "description": {
     "translate": "enchantment.remnants.dueling"
   },
-  "exclusive_set": "#remnants:exclusive_set/katana",
   "supported_items": "#remnants:enchantable/katana",
   "weight": 2,
   "max_level": 3,
