@@ -1,13 +1,13 @@
 package net.legacy.remnants.sound;
 
-import net.legacy.remnants.RemnantsConstants;
-import net.minecraft.Util;
+import net.legacy.remnants.Remnants;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.util.Util;
 import net.minecraft.world.item.JukeboxSong;
 import org.jetbrains.annotations.NotNull;
 
@@ -19,7 +19,7 @@ public class RemnantsJukeboxSongs {
 	}
 
 	private static @NotNull ResourceKey<JukeboxSong> create(String path) {
-		return ResourceKey.create(Registries.JUKEBOX_SONG, RemnantsConstants.id(path));
+		return ResourceKey.create(Registries.JUKEBOX_SONG, Remnants.id(path));
 	}
 
 	private static void register(
@@ -31,7 +31,7 @@ public class RemnantsJukeboxSongs {
 	) {
 		context.register(
 			registryKey,
-			new JukeboxSong(soundEvent, Component.translatable(Util.makeDescriptionId("jukebox_song", registryKey.location())), (float)lengthInSeconds, comparatorOutput)
+			new JukeboxSong(soundEvent, Component.translatable(Util.makeDescriptionId("jukebox_song", registryKey.identifier())), (float)lengthInSeconds, comparatorOutput)
 		);
 	}
 

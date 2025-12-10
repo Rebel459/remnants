@@ -1,10 +1,9 @@
 package net.legacy.remnants.registry;
 
-import net.legacy.remnants.RemnantsConstants;
+import net.legacy.remnants.Remnants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.equipment.trim.TrimPattern;
 import net.minecraft.world.item.equipment.trim.TrimPatterns;
 import org.jetbrains.annotations.NotNull;
@@ -16,7 +15,7 @@ public class RemnantsTrimPatterns {
 	}
 
 	private static @NotNull ResourceKey<TrimPattern> create(String path) {
-		return ResourceKey.create(Registries.TRIM_PATTERN, RemnantsConstants.id(path));
+		return ResourceKey.create(Registries.TRIM_PATTERN, Remnants.id(path));
 	}
 
 	public static void bootstrap(BootstrapContext<TrimPattern> context) {

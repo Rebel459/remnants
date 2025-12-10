@@ -6,7 +6,8 @@ import net.legacy.remnants.registry.RemnantsItems;
 import net.legacy.remnants.registry.RemnantsMobEffects;
 import net.legacy.remnants.registry.RemnantsTrimPatterns;
 import net.legacy.remnants.sound.RemnantsSounds;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
+import org.jetbrains.annotations.NotNull;
 
 public class Remnants implements ModInitializer {
 	@Override
@@ -18,7 +19,8 @@ public class Remnants implements ModInitializer {
 		RemnantsSounds.init();
 	}
 
-	public static ResourceLocation id(String path) {
-		return ResourceLocation.fromNamespaceAndPath("remnants", path);
+    public static final String MOD_ID = "remnants";
+	public static @NotNull Identifier id(String path) {
+		return Identifier.fromNamespaceAndPath(MOD_ID, path);
 	}
 }

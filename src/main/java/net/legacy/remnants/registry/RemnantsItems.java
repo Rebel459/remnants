@@ -1,7 +1,7 @@
 package net.legacy.remnants.registry;
 
 import net.frozenblock.lib.item.api.sherd.SherdRegistry;
-import net.legacy.remnants.RemnantsConstants;
+import net.legacy.remnants.Remnants;
 import net.legacy.remnants.item.KatanaItem;
 import net.legacy.remnants.sound.RemnantsJukeboxSongs;
 import net.legacy.remnants.tag.RemnantsItemTags;
@@ -13,7 +13,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraft.world.item.component.BlocksAttacks;
@@ -25,9 +24,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
-
-import static net.minecraft.world.item.Item.BASE_ATTACK_DAMAGE_ID;
-import static net.minecraft.world.item.Item.BASE_ATTACK_SPEED_ID;
 
 public final class RemnantsItems {
 
@@ -108,7 +104,7 @@ public final class RemnantsItems {
     }
 
     private static @NotNull <T extends Item> T register(String name, @NotNull Function<Properties, Item> function, Item.@NotNull Properties properties) {
-        return (T) Items.registerItem(ResourceKey.create(Registries.ITEM, RemnantsConstants.id(name)), function, properties);
+        return (T) Items.registerItem(ResourceKey.create(Registries.ITEM, Remnants.id(name)), function, properties);
     }
 
     public static Function<Properties, Item> createBlockItemWithCustomItemName(Block block) {
@@ -116,8 +112,8 @@ public final class RemnantsItems {
     }
 
     private static @org.jetbrains.annotations.NotNull <T extends Item> T registerSherd(String name, @org.jetbrains.annotations.NotNull Function<Properties, Item> function, Item.@org.jetbrains.annotations.NotNull Properties properties) {
-        T item = (T) Items.registerItem(ResourceKey.create(Registries.ITEM, RemnantsConstants.id(name)), function, properties);
-        SherdRegistry.register(item, RemnantsConstants.id(name.replace("sherd", "pattern")));
+        T item = (T) Items.registerItem(ResourceKey.create(Registries.ITEM, Remnants.id(name)), function, properties);
+        SherdRegistry.register(item, Remnants.id(name.replace("sherd", "pattern")));
         return item;
     }
 

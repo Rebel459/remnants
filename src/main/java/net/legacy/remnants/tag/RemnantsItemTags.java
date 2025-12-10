@@ -1,6 +1,6 @@
 package net.legacy.remnants.tag;
 
-import net.legacy.remnants.RemnantsConstants;
+import net.legacy.remnants.Remnants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ public class RemnantsItemTags {
 
     @NotNull
     private static TagKey<Item> bind(@NotNull String path) {
-        return TagKey.create(Registries.ITEM, RemnantsConstants.id(path));
+        return TagKey.create(Registries.ITEM, Remnants.id(path));
     }
 
 }

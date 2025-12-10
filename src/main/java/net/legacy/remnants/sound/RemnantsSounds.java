@@ -1,10 +1,10 @@
 package net.legacy.remnants.sound;
 
-import net.legacy.remnants.RemnantsConstants;
+import net.legacy.remnants.Remnants;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.sounds.SoundEvent;
 import org.jetbrains.annotations.NotNull;
 
@@ -17,21 +17,21 @@ public class RemnantsSounds {
 
 	@NotNull
 	private static SoundEvent register(@NotNull String string) {
-		ResourceLocation resourceLocation = RemnantsConstants.id(string);
-		return Registry.register(BuiltInRegistries.SOUND_EVENT, resourceLocation, SoundEvent.createVariableRangeEvent(resourceLocation));
+		Identifier identifier = Remnants.id(string);
+		return Registry.register(BuiltInRegistries.SOUND_EVENT, identifier, SoundEvent.createVariableRangeEvent(identifier));
 	}
 
-	private static Holder.@NotNull Reference<SoundEvent> registerForHolder(String id) {
-		return registerForHolder(RemnantsConstants.id(id));
-	}
+    private static Holder.Reference<SoundEvent> registerForHolder(String id) {
+        return registerForHolder(Remnants.id(id));
+    }
 
-	private static Holder.@NotNull Reference<SoundEvent> registerForHolder(ResourceLocation id) {
-		return registerForHolder(id, id);
-	}
+    private static Holder.Reference<SoundEvent> registerForHolder(Identifier id) {
+        return registerForHolder(id, id);
+    }
 
-	private static Holder.@NotNull Reference<SoundEvent> registerForHolder(ResourceLocation id, ResourceLocation soundId) {
-		return Registry.registerForHolder(BuiltInRegistries.SOUND_EVENT, id, SoundEvent.createVariableRangeEvent(soundId));
-	}
+    private static Holder.Reference<SoundEvent> registerForHolder(Identifier id, Identifier soundId) {
+        return Registry.registerForHolder(BuiltInRegistries.SOUND_EVENT, id, SoundEvent.createVariableRangeEvent(soundId));
+    }
 
 	public static void init() {}
 }
