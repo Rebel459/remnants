@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "enchantment.remnants.dueling"
+    "translate": "enchantment.remnants.steadfast"
   },
   "supported_items": "#remnants:enchantable/katana",
   "weight": 2,

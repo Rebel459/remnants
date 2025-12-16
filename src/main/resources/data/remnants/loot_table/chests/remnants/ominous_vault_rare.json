@@ -95,7 +95,7 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "remnants:dueling",
+                "remnants:steadfast",
                 "minecraft:sharpness",
                 "minecraft:unbreaking"
               ]
