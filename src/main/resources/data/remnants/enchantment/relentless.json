@@ -17,6 +17,7 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": "#enchants_and_expeditions:exclusive_set/knockback",
   "effects": {
     "minecraft:damage": [
       {
