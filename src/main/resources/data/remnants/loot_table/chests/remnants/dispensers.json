@@ -74,10 +74,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:invisibility"
             }
           ],
           "name": "minecraft:golden_apple"
@@ -89,10 +85,6 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:invisibility"
             }
           ],
           "name": "minecraft:honey_bottle",
