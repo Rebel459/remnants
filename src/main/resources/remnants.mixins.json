@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.legacy.remnants.mixin",
+	"package": "net.rebel459.remnants.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"PlayerMixin"
+      "PlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,6 +1,6 @@
-package net.legacy.remnants.registry;
+package net.rebel459.remnants.registry;
 
-import net.legacy.remnants.Remnants;
+import net.rebel459.remnants.Remnants;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

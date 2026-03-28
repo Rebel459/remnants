@@ -1,10 +1,10 @@
-package net.legacy.remnants.registry;
+package net.rebel459.remnants.registry;
 
 import net.frozenblock.lib.item.api.sherd.SherdRegistry;
-import net.legacy.remnants.Remnants;
-import net.legacy.remnants.item.KatanaItem;
-import net.legacy.remnants.sound.RemnantsJukeboxSongs;
-import net.legacy.remnants.tag.RemnantsItemTags;
+import net.rebel459.remnants.Remnants;
+import net.rebel459.remnants.item.KatanaItem;
+import net.rebel459.remnants.sound.RemnantsJukeboxSongs;
+import net.rebel459.remnants.tag.RemnantsItemTags;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.component.DataComponents;

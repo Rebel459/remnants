@@ -1,11 +1,11 @@
-package net.legacy.remnants;
+package net.rebel459.remnants;
 
 import net.fabricmc.api.ModInitializer;
-import net.legacy.remnants.registry.RemnantsCreativeInventorySorting;
-import net.legacy.remnants.registry.RemnantsItems;
-import net.legacy.remnants.registry.RemnantsMobEffects;
-import net.legacy.remnants.registry.RemnantsTrimPatterns;
-import net.legacy.remnants.sound.RemnantsSounds;
+import net.rebel459.remnants.registry.RemnantsCreativeInventorySorting;
+import net.rebel459.remnants.registry.RemnantsItems;
+import net.rebel459.remnants.registry.RemnantsMobEffects;
+import net.rebel459.remnants.registry.RemnantsTrimPatterns;
+import net.rebel459.remnants.sound.RemnantsSounds;
 import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.NotNull;
 

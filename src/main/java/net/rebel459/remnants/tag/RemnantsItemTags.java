@@ -1,6 +1,6 @@
-package net.legacy.remnants.tag;
+package net.rebel459.remnants.tag;
 
-import net.legacy.remnants.Remnants;
+import net.rebel459.remnants.Remnants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;

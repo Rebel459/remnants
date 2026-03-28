@@ -1,4 +1,4 @@
-package net.legacy.remnants.item;
+package net.rebel459.remnants.item;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EquipmentSlotGroup;

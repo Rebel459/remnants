@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.legacy.remnants.Remnants"
+          "net.rebel459.remnants.Remnants"
 		],
 		"frozenlib:decorated_pot_patterns": [
-          "net.legacy.remnants.registry.RemnantsDecoratedPotPatterns"
+          "net.rebel459.remnants.registry.RemnantsDecoratedPotPatterns"
 		]
 	},
 	"mixins": [
 		"remnants.mixins.json"
 	],
 	"depends": {
-		"minecraft": "1.21.11",
+		"minecraft": ">=26.1 <26.2",
 		"fabric-api": "*",
 		"trailiertales": "*",
 		"frozenlib": "*"
