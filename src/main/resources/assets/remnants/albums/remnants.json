@@ -1,0 +1,10 @@
+{
+  "name": {
+    "translate": "album.remnants.remnants"
+  },
+  "icon": "remnants:icon.png",
+  "discs": [
+    "refer",
+    "retold"
+  ]
+}
